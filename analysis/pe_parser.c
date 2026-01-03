@@ -93,11 +93,4 @@ int main(int argc, char** argv)
     parse_sections(first_section, sections, pe);
 
     free(pe);
-    return 0;
 }
-
-
-/*
-    NOTE: bypasses the Windows loader
-
-*/
